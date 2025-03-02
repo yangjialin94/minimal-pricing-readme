@@ -36,7 +36,3 @@ For questions, feedback, or contributions, feel free to reach out:
 - **Email**: <yangjialin94@gmail.com>
 - **GitHub**: [@yangjialin94](https://github.com/yangjialin94)
 - **LinkedIn**: [@jialin-yang-jy](https://www.linkedin.com/in/jialin-yang-jy/)
-
----
-
-⭐ If you like this project, consider giving it a **star** on GitHub!
