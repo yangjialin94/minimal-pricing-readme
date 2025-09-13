@@ -2,7 +2,9 @@
 
 Minimal Pricing is a **web-based application** that helps users calculate **costs, margins, and profits** for projects efficiently. It combines task management with dynamic project pricing, PDF generation, and profit analysis — all in a modern, responsive interface.
 
-👉 This repository is **public for recruiters and collaborators to review the project’s scope and technology choices**. The source code remains private.
+👉 Live site: [minimalpricing.com](https://www.minimalpricing.com/)  
+👉 This repository is **public for recruiters and collaborators to review the project’s scope and technology choices**.  
+The source code remains private.
 
 ---
 
