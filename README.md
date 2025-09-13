@@ -1,38 +1,60 @@
-# Minimal Pricing Platform Readme
+# Minimal Pricing
 
-## 🗒️ TL;DR
+Minimal Pricing is a **web-based application** that helps users calculate **costs, margins, and profits** for projects efficiently. It combines task management with dynamic project pricing, PDF generation, and profit analysis — all in a modern, responsive interface.
 
-[Minimal Pricing](https://minimalpricing.com/) is a **contract pricing app (currently frontend-only)** that helps users manage project pricing efficiently by organizing **tasks, materials, labor fees, and additional costs**. This version is **frontend-only**, built with **Next.js** and optimized for responsiveness across different screen sizes.
+👉 This repository is **public for recruiters and collaborators to review the project’s scope and technology choices**. The source code remains private.
 
-## 🚀 Features
+---
 
-- **Dynamic Project Pricing**: Add project and calculate pricing based on selected tasks.
-- **Tasks Management**: Organize tasks into sections for **materials, labor, and additional fees**.
-- **PDF Generation**: Select which data to display in a **downloadable PDF invoice**.
-- **Responsive UI**: Optimized for mobile to **ultra-wide screens**.
-- **Smooth Animations**: Enhanced UX with **Framer Motion** animations.
+## ✨ Features
+
+- **Dynamic Project Pricing** – Calculate pricing based on materials, labor, and extra costs  
+- **Task Management** – Organize expenses by category (materials, labor, additional fees)  
+- **Profit Calculator** – Calculate margins and view overall project profitability  
+- **PDF Generation** – Export detailed quotes for personal use or customer delivery  
+- **User Management** – Manage both internal users and customer information  
+- **Responsive Design** – Optimized for mobile up to ultra-wide desktop  
+- **Dark Mode** – Toggle between light and dark themes  
+- **Privacy First** – All data stays in **browser session storage** (clears on close)  
+
+---
 
 ## 🛠 Tech Stack
 
-### **Frontend**
+- **Framework**: Next.js (React, TypeScript)  
+- **Styling**: Tailwind CSS  
+- **State Management**: Context API  
+- **PDF Generation**: React-PDF  
+- **Data Persistence**: Browser Session Storage  
+- **UI Enhancements**: Motion (Framer Motion), Lucide React, Heroicons  
+- **Forms**: React Number Format  
+- **Payments**: Stripe (for future integration)  
+- **Analytics**: Vercel Analytics + Speed Insights  
+- **Hosting**: Vercel  
+- **Code Quality**: ESLint & Prettier  
 
-- **Framework**: [Next.js](https://nextjs.org/)
-- **UI Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Animations**: [Motion](https://www.framer.com/motion/)
-- **State Management**: Context API
-- **PDF Generation**: [react-pdf](https://react-pdf.org/)
-- **Data Persistence**: Browser Session Storage (temporary data retention)
-- **Payment Processing**: [Stripe](https://stripe.com/)
+---
 
-## 📜 License
+## 🚀 Architecture Overview
 
-© 2025 Minimal Pricing. All Rights Reserved.  
-This software and its source code are proprietary and may not be copied, modified, or distributed without explicit permission.
+- **Frontend only** app, running entirely in the browser  
+- **Session-based storage** keeps user data private and ephemeral  
+- **PDF generation** built into the client for instant export  
+- **Stripe integration** planned for premium features and donations  
 
-## 📩 Contact
+---
 
-For questions, feedback, or contributions, feel free to reach out:
+## 📬 Contact
 
-- **Email**: <yangjialin94@gmail.com>
-- **GitHub**: [@yangjialin94](https://github.com/yangjialin94)
-- **LinkedIn**: [@jialin-yang-jy](https://www.linkedin.com/in/jialin-yang-jy/)
+Interested in learning more about Minibunn Planner?  
+- **Portfolio**: [jialinyang.com](https://www.jialinyang.com)
+- **LinkedIn**: [linkedin.com/in/jialin-yang-jy](https://www.linkedin.com/in/jialin-yang-jy)
+- **Email**: work@jialinyang.com
+
+---
+
+## ⚖️ License
+
+This project is released under a Proprietary License.
+- Code is not open source and cannot be copied, modified, or redistributed.
+- This repository is for review purposes only.
